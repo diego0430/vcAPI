@@ -7,6 +7,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!更新してみた！'
 
+@app.route('/lineapi/xrp/showrate')
+def xrpApi():
+    return 'Hello World!更新してみた！'
+
 
 if __name__ == '__main__':
     app.run()
