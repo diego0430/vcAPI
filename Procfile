@@ -1,1 +1,1 @@
-web: gunicorn vcAPI.wsgi --log-file -
+web: gunicorn vcAPI:app --log-file -
